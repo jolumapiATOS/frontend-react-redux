@@ -2,6 +2,63 @@
   text-align: center;
 }
 
+#anchor-tag {
+  color: aliceblue;
+  padding-left: 40px;
+  text-decoration: none;
+  font-weight: bolder;
+  margin: 30px 0px;
+}
+
+
+
+.container-main-page {
+  height: 90vh;
+}
+
+.individual-cards-for-user {
+  height: 160px;
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 25px 0px;
+  padding: 22px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 7px;
+}
+
+.individual-cards-for-user > *{
+  margin: 0;
+}
+
+.footer {
+  position: sticky;
+  bottom: 0px;
+  background-color:  #f23557;
+  color: white;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar-special {
+  position: sticky;
+  top: 0px;
+  background-color: #f23557;
+  min-height: 10vh;
+}
+
+.container-users {
+  min-height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
