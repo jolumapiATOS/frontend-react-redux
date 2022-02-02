@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 
 const initialState = {
-    value: 'offline'
+    value: null
 }
 
 export const userSlice = createSlice({
